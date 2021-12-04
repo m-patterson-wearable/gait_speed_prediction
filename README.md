@@ -22,6 +22,9 @@ https://mueller-et-al-2019.s3.amazonaws.com/independent_validation_study/dataset
 * Sensors synchronization: Manually tapping both sensors using a pen, recording signatures, compensating for signature offset
 * Walking Speed Reference from distance and time per quarter wheel revolution 
 
+* Methodology:
+    * Prepare data with subject 3-d acceleration @ 100Hz against average wheel speed @ 1Hz. Use sync data. 
+
 
 
 
