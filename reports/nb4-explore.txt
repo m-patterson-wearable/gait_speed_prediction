@@ -1,0 +1,6 @@
+Data Exploration File 
+===================== 
+No. of available walk_ids (time series) in the dataset is 46 performed by 24 subjects 
+
+No. of available speeds (a continuous set of time series) in the dataset is 12292 performed by 24 subjects 
+
