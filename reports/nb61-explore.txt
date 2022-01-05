@@ -62,17 +62,17 @@ No. of available walks (time series) in the dataset is 46 performed by 24 subjec
 1 discontinuity detected in walk: 915-2 at indices: [37099] with lags [1.0099999904632568] sec 
 4101 samples dropped to eliminate discontinuity in walk 915-2! 
 
-Total number of samples in the dataset is 2041820 and includes 15 distinct speeds 
+Total number of samples in the dataset is 2041820 and includes 12256 distinct speeds 
 No of outliers:
- X = 58348
- Y = 216817
- Z = 12159
+ X = 161094
+ Y = 109799
+ Z = 107514
 
 After interpolation, No of leading NaNs:
- X = 445
- Y = 1407
- Z = 20
- RMS = 1852
+ X = 504
+ Y = 161
+ Z = 375
+ RMS = 616
 
 After dropping nans, No of NaNs:
  X = 0
