@@ -1,0 +1,15 @@
+artifact_uri: file:///home/samer/selected_projects/gait_speed_prediction/notebooks/mlruns/3/d59a5f479be64de2a76b1df77eda6767/artifacts
+end_time: 1641404453204
+entry_point_name: ''
+experiment_id: '3'
+lifecycle_stage: deleted
+name: ''
+run_id: d59a5f479be64de2a76b1df77eda6767
+run_uuid: d59a5f479be64de2a76b1df77eda6767
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1641404434246
+status: 3
+tags: []
+user_id: samer

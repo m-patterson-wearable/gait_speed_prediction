@@ -1,0 +1,4 @@
+artifact_location: file:///home/samer/selected_projects/gait_speed_prediction/notebooks/mlruns/3
+experiment_id: '3'
+lifecycle_stage: active
+name: Gait Speed Prediction
