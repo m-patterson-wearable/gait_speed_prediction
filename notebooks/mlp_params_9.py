@@ -2,24 +2,36 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler
 import time
 
 
+# model=['mlp']
+# data=[
+#     ['xyz_raw','xyz_interp','rms_raw','rms_interp','rms_interp'],
+#     [StandardScaler(),StandardScaler(),StandardScaler(),StandardScaler(),MinMaxScaler()]
+#     ]
+# batch_size=[16,80]
+# epochs=[80,120]
+# layers=[
+#     [[128],['relu'],[0]],
+#     [[256,128],['relu','relu'],[0,0]],
+#     [[256,128, 64],['relu','relu','relu'],[0,0,0]],
+#     [[256,128, 64],['relu','relu','relu'],[0.1,0.2,0.1] ]
+#     ]
+# loss=['mean_squared_error']
+# metrics=[['mean_squared_error']]
+
+
 model=['mlp']
 data=[
-    ['xyz_raw','xyz_interp','rms_raw','rms_interp','rms_interp'],
-    [StandardScaler(),StandardScaler(),StandardScaler(),StandardScaler(),MinMaxScaler()]
+    ['xyz_interp','xyz_interp'],
+    [StandardScaler(),MinMaxScaler()]
     ]
-batch_size=[16,80]
-epochs=[80,120]
+batch_size=[16,40,80]
+epochs=[20,40,80]
 layers=[
-    [[128],['relu'],[0]],
-    [[256,128],['relu','relu'],[0,0]],
-    [[256,128, 64],['relu','relu','relu'],[0,0,0]],
-    [[256,128, 64],['relu','relu','relu'],[0.1,0.2,0.1] ]
+    [[256,128,128, 64],['relu','relu','relu','relu'],[0,0,0,0]],
+    [[256,128,128, 64],['relu','relu','relu','relu'],[0.2,0.1,0.1,0]],
     ]
 loss=['mean_squared_error']
 metrics=[['mean_squared_error']]
-
-
-
 
 
 
@@ -67,35 +79,3 @@ print('No. of combinations: {}'.format(len(grid)))
 
 
 
-
-
-# run1 = {
-#     'id': time.time(),
-#     'model': 'mlp',
-#     'dataset': 'xyz_raw', # options: xyz_raw, rms_raw, xyz_interp,rms_interp
-#     'scaler': StandardScaler(),  # standard, minmax, maxabs 
-#     'batch_size': 16,
-#     'epochs':3,
-#     'nodes': [128],  
-#     'act': ['relu'],
-#     'dropout': [0],  # dropout 0 means keep all nodes
-#     'loss': 'mean_squared_error',
-#     'metrics': ['mean_squared_error']
-# }
-
-# run2 = {
-#     'id': time.time(),
-#     'model': 'mlp',
-#     'dataset': 'rms_raw', # options: xyz_raw, rms_raw, xyz_interp,rms_interp
-#     'scaler': StandardScaler(),  # standard, minmax, maxabs 
-#     'batch_size': 16,
-#     'epochs':3,
-#     'nodes': [128],  
-#     'act': ['relu'],
-#     'dropout': [0],  # dropout 0 means keep all nodes
-#     'loss': 'mean_squared_error',
-#     'metrics': ['mean_squared_error']
-# }
-
-
-# grid=[run1, run2]
