@@ -1,0 +1,29 @@
+Model: "model"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ input (InputLayer)          [(None, 300)]             0         
+                                                                 
+ dense_35 (Dense)            (None, 256)               77056     
+                                                                 
+ dropout_28 (Dropout)        (None, 256)               0         
+                                                                 
+ dense_36 (Dense)            (None, 300)               77100     
+                                                                 
+ dropout_29 (Dropout)        (None, 300)               0         
+                                                                 
+ dense_37 (Dense)            (None, 128)               38528     
+                                                                 
+ dropout_30 (Dropout)        (None, 128)               0         
+                                                                 
+ dense_38 (Dense)            (None, 64)                8256      
+                                                                 
+ dropout_31 (Dropout)        (None, 64)                0         
+                                                                 
+ dense_39 (Dense)            (None, 1)                 65        
+                                                                 
+=================================================================
+Total params: 201,005
+Trainable params: 201,005
+Non-trainable params: 0
+_________________________________________________________________
