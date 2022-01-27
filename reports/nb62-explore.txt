@@ -1,0 +1,82 @@
+Data Exploration File 
+===================== 
+No. of available walks (time series) in the dataset is 46 performed by 24 subjects 
+
+1 discontinuity detected in walk: 52-2 at indices: [46399] with lags [7.009999990463257] sec 
+100 samples dropped to eliminate discontinuity in walk 52-2! 
+
+1 discontinuity detected in walk: 78-1 at indices: [41599] with lags [1.0099999904632568] sec 
+100 samples dropped to eliminate discontinuity in walk 78-1! 
+
+1 discontinuity detected in walk: 78-2 at indices: [13699] with lags [2.009999990463257] sec 
+100 samples dropped to eliminate discontinuity in walk 78-2! 
+
+1 discontinuity detected in walk: 145-1 at indices: [57699] with lags [51.00999999046326] sec 
+100 samples dropped to eliminate discontinuity in walk 145-1! 
+
+1 discontinuity detected in walk: 161-3 at indices: [21199] with lags [12.009999990463257] sec 
+400 samples dropped to eliminate discontinuity in walk 161-3! 
+
+1 discontinuity detected in walk: 181-2 at indices: [55699] with lags [1.0099999904632568] sec 
+5400 samples dropped to eliminate discontinuity in walk 181-2! 
+
+1 discontinuity detected in walk: 290-1 at indices: [49699] with lags [9.009999990463257] sec 
+200 samples dropped to eliminate discontinuity in walk 290-1! 
+
+1 discontinuity detected in walk: 314-1 at indices: [39499] with lags [1.0099999904632568] sec 
+14401 samples dropped to eliminate discontinuity in walk 314-1! 
+
+2 discontinuity detected in walk: 314-2 at indices: [32799, 34299] with lags [1.0099999904632568, 15.009999990463257] sec 
+1800 samples dropped to eliminate discontinuity in walk 314-2! 
+
+1 discontinuity detected in walk: 317-1 at indices: [37299] with lags [1.0099999904632568] sec 
+200 samples dropped to eliminate discontinuity in walk 317-1! 
+
+1 discontinuity detected in walk: 339-2 at indices: [19299] with lags [1.0099999904632568] sec 
+200 samples dropped to eliminate discontinuity in walk 339-2! 
+
+2 discontinuity detected in walk: 390-1 at indices: [21549, 21849] with lags [32.50999999046326, 1.0099999904632568] sec 
+400 samples dropped to eliminate discontinuity in walk 390-1! 
+
+1 discontinuity detected in walk: 527-1 at indices: [17899] with lags [2.009999990463257] sec 
+100 samples dropped to eliminate discontinuity in walk 527-1! 
+
+1 discontinuity detected in walk: 527-2 at indices: [19499] with lags [1.0099999904632568] sec 
+100 samples dropped to eliminate discontinuity in walk 527-2! 
+
+1 discontinuity detected in walk: 733-1 at indices: [49399] with lags [2.009999990463257] sec 
+2651 samples dropped to eliminate discontinuity in walk 733-1! 
+
+1 discontinuity detected in walk: 806-2 at indices: [34749] with lags [6.509999990463257] sec 
+1401 samples dropped to eliminate discontinuity in walk 806-2! 
+
+1 discontinuity detected in walk: 863-1 at indices: [31349] with lags [6.509999990463257] sec 
+4499 samples dropped to eliminate discontinuity in walk 863-1! 
+
+1 discontinuity detected in walk: 896-1 at indices: [115499] with lags [1.0099999904632568] sec 
+200 samples dropped to eliminate discontinuity in walk 896-1! 
+
+1 discontinuity detected in walk: 915-1 at indices: [50999] with lags [1.0099999904632568] sec 
+951 samples dropped to eliminate discontinuity in walk 915-1! 
+
+1 discontinuity detected in walk: 915-2 at indices: [37099] with lags [1.0099999904632568] sec 
+4101 samples dropped to eliminate discontinuity in walk 915-2! 
+
+Total number of samples in the dataset is 2041820 and includes 12256 distinct speeds 
+No of outliers:
+ X = 161094
+ Y = 109799
+ Z = 107514
+
+After interpolation, No of leading NaNs:
+ X = 504
+ Y = 161
+ Z = 375
+ RMS = 616
+
+After dropping nans, No of NaNs:
+ X = 0
+ Y = 0
+ Z = 0
+ RMS = 0
+
